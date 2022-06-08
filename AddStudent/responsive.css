@@ -1,0 +1,68 @@
+@media screen and (min-width:800px) {
+    #header-image{
+        display: none;
+    }
+    #cross-image{
+        display: none;
+    }
+    body{
+        display: flex;
+    }
+    .slider{
+        display: inline-block;
+        height: 100vh;
+        width: 50vw;
+        margin-top: 20%;
+        background-color: white;
+           
+    }
+    .area{
+        width: 40vw;
+        height: 4vh;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .content{
+        height: 100vh;
+        width: 50vw;
+        border-left:2px solid black ;
+        float: right;
+    }
+    .content div{
+        font-size: 20px;
+    }
+    #btn{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 30px;
+    background-color: rgb(220, 173, 55);
+    margin: auto;
+    }
+}
+
+/* for laptop or computer */
+@media screen and (min-width: 950px) {
+    .slider{
+        width: 40vw;
+    }
+    .area{
+        width: 35vw;
+        height: 4vh;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    #btn{
+        width: 15vw;
+    }
+    h2{
+        font-size: 30px;
+    }
+    label{
+        font-size: 25px;
+    }
+    .content div{
+        font-size: 30px;
+        margin-left: 3%;
+    }
+
+}
